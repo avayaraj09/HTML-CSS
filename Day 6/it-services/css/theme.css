@@ -1,0 +1,105 @@
+@import url(./base.css);
+
+/* Top */
+
+.it-services {
+  padding-top: 75px;
+}
+.it-services .top h1 {
+  color: var(--site-blue);
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.it-services .top h2 {
+  word-spacing: 3px;
+  padding-bottom: 19px;
+}
+.it-services .top p {
+  width: 741px;
+  font-size: 12px;
+  text-align: center;
+}
+.it-services .mid {
+  position: relative;
+  background-image: url(../images/icon.svg);
+  background-repeat: no-repeat;
+  width: 1171px;
+  background-position: 2% 86%;
+  background-size: 12%;
+}
+.it-services .mid .image {
+  width: 754px;
+  padding: 71px 0;
+}
+.it-services .mid .image img {
+  width: 934px;
+  height: auto;
+  padding-left: 90px;
+}
+.it-services .mid .content {
+  position: absolute;
+  background-color: var(--site-blue);
+  margin-top: -306px;
+  margin-left: 457px;
+  height: 265px;
+  width: 586px;
+}
+.it-services .mid .content .mid-top {
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 464px;
+  padding-left: 4px;
+  padding-top: 30px;
+}
+.it-services .mid .content .mid-top > h1 {
+  color: var(--site-background);
+  font-size: 17px;
+}
+.it-services .mid .content .mid-top p {
+  color: var(--site-background);
+  font-size: 28px;
+}
+.it-services .mid .content .bottom {
+  width: 464px;
+  padding-top: 30px;
+}
+
+.it-services .mid .content .bottom .left ul li {
+  color: var(--site-background);
+  font-size: 30px;
+  width: 200px;
+}
+.it-services .mid .content .bottom .left ul li:last-child{
+
+  font-size: 11px;
+}
+
+.it-services .mid .content .bottom .right ul li {
+  color: var(--site-background);
+  font-size: 30px;
+  width: 246px;
+}
+.it-services .mid .content .bottom .right ul li:last-child{
+
+  font-size: 11px;
+}
+.it-services .bottom-2 {
+  width: 800px;
+}
+.it-services .bottom-2 .left {
+  padding-right: 122px;
+}
+.it-services .bottom-2 .left p {
+  font-size: 20px;
+}
+.it-services .bottom-2 .right .image {
+  height: 135px;
+  padding-right: 50px;
+}
+.it-services .bottom-2 .right .image img {
+  height: 134px;
+}
+
+.it-services .bottom-2 .right .content p {
+  font-size: 13px;
+}

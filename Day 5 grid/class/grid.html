@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <section class="container">
+        <header><p>This is my navigation</p></header>
+
+        <aside>
+            <h2>Business analytics</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora eveniet laboriosam aspernatur</p>
+
+            <h2>Directing the arrow</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora eveniet laboriosam aspernatur</p>
+        </aside>
+
+        <article>
+            <h1>International Women's Day and Women's History Month</h1>
+            <p>From Women's History Month to global International Women's Day celebrations, March is a time to champion the power of women's voices and drive positive change. As you make your plans to celebrate International Women’s Day and Women’s History Month, here are four ways to access inspiring content from the past and even find new voices:</p>
+
+            <img src="./images/Business analytics-pana.svg" alt="">
+
+            <h3>Discover women-led storytelling.</h3>
+
+            <p>The stories we consume shape our understanding of the world. And the stories of women — both historical and contemporary — are inspiring. This Women's History Month, immerse yourself in women's voices and narratives, with help from Google.</p>
+        </article>
+
+        <footer>
+            <p>contact me mail@gmail.com</p>
+        </footer>
+    </section>
+
+
+    <style>
+
+
+
+header, footer {
+            padding: 10px;
+            background-color: green;
+        }
+
+        section.container {
+    display: grid;
+    grid-template-columns: repeat(12 , 1fr);
+    gap: 15px;
+}
+        header {
+    grid-column: 1 / 13;
+    grid-row: 1;
+}
+        footer {
+    grid-column: 1 / 13;
+    grid-row: 3;
+}
+        aside {
+    grid-column: 1 / 4;
+    grid-row: 2;
+    background-color: #ddd;
+    padding: 15px;
+}
+
+     article {
+    grid-column: 4 / 13;
+    grid-row: 2;
+    padding: 25px;
+}
+        
+
+        
+
+
+    </style>
+</body>
+</html>

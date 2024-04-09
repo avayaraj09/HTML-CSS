@@ -1,0 +1,213 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background: #a9aeae;
+  position: relative;
+}
+
+div.box {
+  background-color: #ffffff;
+  width: 1214px;
+  height: 816px;
+  padding: 29px;
+  border-radius: 23px;
+  position: absolute;
+  top: 20px;
+  left: 309px;
+}
+
+div.box div.top {
+  background: linear-gradient(
+      to top,
+      rgba(17, 17, 17, 0.21),
+      rgba(255, 244, 244, 0.74)
+    ),
+    url(./images/background1.jpg);
+  height: 468px;
+  width: calc(100% - -3px);
+  border-radius: 23px;
+}
+
+div.box div.top div.nav {
+  height: 70px;
+  position: relative;
+}
+
+div.box div.top div.nav div.logo {
+  width: 253px;
+  height: 70px;
+}
+
+div.box div.top div.nav div.logo img {
+  height: 48px;
+  width: 229px;
+  margin: 5px;
+  padding: 2px;
+}
+
+div.box div.top div.nav ul.nav-list {
+  top: 27px;
+  position: absolute;
+  margin: 0px;
+  right: 369px;
+  width: 320px;
+}
+
+div.box div.top div.nav ul.nav-list li {
+  display: inline;
+  padding: 12px;
+  margin-right: 16px;
+}
+
+div.box div.top div.nav div.btn-primary {
+  display: block;
+  background-color: #4545f7;
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px;
+  width: 68px;
+  border-radius: 7px;
+  color: white;
+  padding: 15px;
+  position: absolute;
+  top: 12px;
+  right: 20px;
+}
+
+div.box div.top div.container {
+  position: absolute;
+  margin: 14px 115px;
+}
+
+div.box div.top div.container p {
+  width: 336px;
+  margin: 10px 0;
+  color: #a29797;
+  font-size: 12px;
+}
+
+div.box div.top div.container div.input {
+  background: white;
+  height: 52px;
+  width: 398px;
+  border: none;
+  border-radius: 26px;
+  margin: 22px 0;
+}
+
+div.box div.top div.container div.input input {
+  margin: 16px 23px;
+  border: none;
+  border-radius: 7px;
+  padding: 2px;
+}
+
+div.box div.top div.container div.input div.btn-secondary {
+  display: block;
+  background-color: #4545f7;
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px;
+  width: 111px;
+  border-radius: 26px;
+  color: white;
+  padding: 9px;
+  float: right;
+  margin: 8px 13px;
+}
+
+div.box div.bottom {
+  height: 374px;
+  width: calc(100% - -3px);
+  position: relative;
+}
+
+div.box div.bottom div.left {
+  position: absolute;
+  top: 36px;
+  left: 95px;
+}
+
+div.box div.bottom div.left div.video1 {
+  position: absolute;
+  top: 10px;
+}
+
+div.box div.bottom div.left div.video1 video {
+  height: 200px;
+  width: 200px;
+}
+
+div.box div.bottom div.left div.video1 p {
+  font-size: 12px;
+}
+
+div.box div.bottom div.left div.video2 {
+  position: absolute;
+  left: 241px;
+  top: 10px;
+}
+
+div.box div.bottom div.left div.video2 video {
+  height: 200px;
+  width: 200px;
+}
+
+div.box div.bottom div.left div.video2 p {
+  font-size: 12px;
+}
+
+div.box div.bottom div.left div.video3 {
+  position: absolute;
+  left: 484px;
+  top: 10px;
+}
+
+div.box div.bottom div.left div.video3 video {
+  height: 200px;
+  width: 200px;
+}
+
+div.box div.bottom div.left div.video3 p {
+  font-size: 12px;
+}
+
+div.box div.bottom div.right {
+  position: absolute;
+  top: 35px;
+  right: -116px;
+  width: 36%;
+}
+
+div.bottom div.right ul li {
+  list-style-type: none;
+  margin: 23px 0;
+  position: relative;
+}
+
+div.bottom div.right ul li::before {
+  width: 20px;
+  height: 20px;
+  background-color: #9763aa0a;
+  position: absolute;
+  left: -30px;
+  border-radius: 50%;
+  border: 1px solid;
+  text-align: center;
+  top: 7px;
+}
+
+div.bottom div.right ul li:first-child:before {
+  content: "1";
+}
+
+div.bottom div.right ul li:nth-child(2):before {
+  content: "2";
+}
+
+div.bottom div.right ul li:last-child:before {
+  content: "3";
+}

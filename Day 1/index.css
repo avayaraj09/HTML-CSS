@@ -1,0 +1,131 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: #dfe6e6;
+}
+div.box{
+    
+    width: 640px;
+    background-color: white;
+    border-radius: 7px;
+    margin: 70px auto;
+    padding: 20px;
+}
+
+/* Logo and navigation */
+
+header{
+
+    height: 65px;
+    width: 100%;
+    background-color: orange;
+   
+}
+header div.logo{
+    float: left;
+    height: 66px;
+    
+}
+header div.logo img {
+    height: 28px;
+    width: 157px;
+    border-radius: 100px;
+    margin: 19px;
+    
+    
+}
+header ul.nav{
+float: right;
+height: 70px;
+padding: 3px;
+}
+
+header ul.nav li{
+    display: inline;
+    margin: 0px 10px;
+}
+header ul.nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+header ul.nav li a:hover{
+    text-decoration: underline;
+    color: orangered;
+}
+header ul.nav li:last-child a{
+    border: 2px solid orangered;
+    padding: 7px;
+    border-radius: 20px;
+}
+header ul.nav li:last-child a:hover{
+    background-color: orangered;
+    color: white;
+    transition: ease-in 0.3s;
+    text-decoration: none;
+}
+
+/* Body */
+
+h1{
+
+    margin: 0px;
+    padding: 5px;
+}
+p{
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.05px;
+}
+p.simple{
+    font-size: 16px;
+}
+img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+span.btn-primary {
+    display: block;
+    padding: 10px;
+    background-color: #e8e8e8;
+    border: 1px solid #0280ff;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+    width: 140px;
+    border-radius: 7px;
+    margin-top: 15px;
+}
+
+span.btn-primary:hover {
+    background-color: #0280ff;
+    color: white;
+}
+
+
+/* a[href="https://google.com"] {
+    font-size: 26px;
+} */
+
+a[target="_blank"] {
+    color: blue;
+    text-decoration: none;
+}
+
+a[target="_blank"]::after {
+    content: "🡕";
+}
+
+input{
+    padding: 10px;
+    border: 1px solid black;
+}
+input:focus{
+    border: 4px solid green;
+}
+input:invalid{
+    border: 4px solid red;
+}

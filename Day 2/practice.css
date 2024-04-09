@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: rgb(170, 168, 168);
+}
+
+div.login-box {
+  width: 728px;
+  height: 500px;
+  position: absolute;
+  top: calc(50% - 250px);
+  left: calc(50% - 364px);
+  box-shadow: 0px 20px 65px black;
+}
+
+div.login-box div.html-form {
+  width: 320px;
+  height: 100%;
+  background-color: white;
+  float: left;
+  position: relative;
+}
+
+div.login-box div.html-form div.header {
+  height: 50px;
+}
+
+div.login-box div.html-form div.header div.button::before {
+  content: "←";
+  margin: 10px;
+  padding: 5px;
+  float: left;
+}
+
+div.login-box div.html-form div.header div.register {
+  float: right;
+  margin: 10px;
+  padding: 5px;
+}
+
+div.login-box div.html-form div.container {
+  position: absolute;
+  padding: 1px;
+  margin: 45px 33px;
+  width: 255px;
+  border-bottom: 2px solid #e1d9d9;
+}
+
+div.login-box div.html-form div.container p {
+  font-size: 12px;
+  margin-top: 16px;
+}
+
+div.login-box div.html-form div.container input {
+  width: 99%;
+  margin-top: 15px;
+  border-radius: 5px;
+  background-color: #bcbcc269;
+  padding: 10px;
+  border: none;
+}
+
+div.login-box div.html-form div.container span.forgot {
+  float: right;
+  font-size: 11px;
+  color: blue;
+}
+
+div.login-box div.html-form div.container span.btn-primary {
+  display: block;
+  background-color: #4545f7;
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px;
+  width: calc(100% - 19px);
+  border-radius: 7px;
+  color: white;
+  margin: 28px 0;
+  padding: 10px;
+}
+
+div.login-box div.html-form div.container span.btn-primary:hover {
+  background-color: red;
+  color: wheat;
+  transition: 0.5s;
+}
+
+div.login-box div.html-form div.also {
+  position: absolute;
+  margin: 0 90px;
+  bottom: 38px;
+}
+
+div.login-box div.html-form div.also p{
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+
+
+div.login-box div.html-form div.also i {
+  color: blue;
+  margin: 1px;
+  padding: 1px;
+  font-size: 27px;
+}
+
+div.login-box div.background {
+  width: calc(100% - 320px);
+  height: 100%;
+  float: left;
+  background-color: black;
+  background-image: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0.12)), url(./images/background.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div.background div.content {
+  position: absolute;
+  margin: 0 60px;
+  bottom: 40px;
+}
+
+div.background div.content h1 {
+  font-size: 22px;
+  color: white;
+  line-height: 32pt;
+  position: relative;
+}
+
+div.background div.content h1:before {
+  content: "";
+  width: 25px;
+  height: 1px;
+  background-color: white;
+  position: absolute;
+  top: 22px;
+  left: -35px;
+}
+
+div.background div.content p {
+  font-size: 12px;
+  color: white;
+}

@@ -1,0 +1,195 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #dfdddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+div.box {
+  width: 800px;
+  height: 600px;
+  background: #2a9e9e99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.box div.innerbox {
+  width: 753px;
+  height: 561px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 14px;
+}
+
+div.innerbox div.top {
+  width: 719px;
+  height: 343px;
+  background: linear-gradient(
+      to top,
+      rgba(17, 17, 17, 0.21),
+      rgba(255, 244, 244, 0.74)
+    ),
+    url(./images/background1.jpg);
+  border-radius: 14px;
+}
+
+div.top div.nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+div.nav div.logo {
+  display: flex;
+  margin-top: 13px;
+}
+
+div.nav div.logo p {
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 17px;
+}
+
+div.nav div.logo p::before {
+  content: "s";
+  width: 15px;
+  height: 15px;
+  background-color: black;
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+  font-size: 13px;
+  color: white;
+  margin: -13px -23px;
+}
+
+div.nav div.mid {
+  font-size: 10px;
+  margin-top: 18px;
+}
+
+div.nav div.mid ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+}
+
+div.nav div.action {
+  width: 70px;
+  background-color: white;
+  margin: 13px -17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 33px;
+  padding: 5px;
+  font-size: 14px;
+}
+
+div.top div.container {
+  display: flex;
+  flex-direction: column;
+  width: 390px;
+  height: 240px;
+  justify-content: space-around;
+  margin-left: 76px;
+}
+
+div.container div.text{
+  height: 152px;
+  width: 231px;
+}
+
+div.container div.text h1{
+
+}
+
+div.container div.text p{
+  font-size: 13px;
+  color: #aaa8a8;
+}
+
+div.container div.input{
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  width: 460px;
+  height: 45px;
+  border-radius: 33px;
+}
+
+div.input div.input-field{
+
+  display: flex;
+  flex-direction: column;
+  margin-top: 4px;
+}
+
+div.input-field label{
+
+  color: gray;
+  font-size: 13px;
+}
+
+div.input-field input{
+  
+  border: none;
+}
+
+div.input div.btn-secondary{
+  width: 71px;
+  background-color: #596f59;
+  margin: 7px -44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 33px;
+  padding: 8px;
+  font-size: 14px;
+  height: 16px;
+}
+
+div.box div.bottom {
+  width: 719px;
+  height: 191px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+div.bottom div.left{
+
+}
+div.bottom div.left h1{
+
+}
+div.bottom div.left div.list1{
+  width: 406px;
+  height: 151px;
+}
+div.bottom div.left div.list1 ul{
+  display: flex;
+  justify-content: space-around;
+}
+div.bottom div.left div.list1 ul li{
+  list-style: none;
+}
+div.bottom div.left div.list1 ul li img{
+  width: 100px;
+  height: 100px;
+}
+
+div.bottom div.right{
+  
+}
